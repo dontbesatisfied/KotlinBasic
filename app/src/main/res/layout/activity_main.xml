@@ -15,16 +15,17 @@
         >
 
         <Button
+            android:id="@+id/controlBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="제어문" />
+
+        <Button
             android:id="@+id/loopBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="반복문" />
 
-        <Button
-            android:id="@+id/controlBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="제어문" />
         <Button
             android:id="@+id/classBtn"
             android:layout_width="match_parent"
